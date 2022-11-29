@@ -1,0 +1,16 @@
+body {
+    background-color: darkblue;
+}
+
+.container {
+    border-radius: 15px;
+    background-color: white;
+}
+
+.line {
+    text-decoration: line-through;
+}
+
+.list-group-item i {
+    cursor: pointer;
+}
