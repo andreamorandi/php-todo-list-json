@@ -11,6 +11,8 @@ body {
     text-decoration: line-through;
 }
 
+.list-group-item p,
 .list-group-item i {
     cursor: pointer;
+    padding: .8rem;
 }

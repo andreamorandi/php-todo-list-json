@@ -26,7 +26,7 @@
             <div class="row justify-content-center">
                 <div class="col-7">
                     <ul class="list-group">
-                        <li class="list-group-item d-flex justify-content-between align-items-center py-3 px-4" v-for="(todo,index) in todoList" :key="index">
+                        <li class="list-group-item d-flex justify-content-between align-items-center" v-for="(todo,index) in todoList" :key="index">
                             <p class="m-0" :class="{ line: todo['done'] }" @click="toggleDone(index)">{{ todo["text"] }}</p>
                             <i class="fa-solid fa-trash-can text-danger" @click="removeTodo(index)"></i>
                         </li>
