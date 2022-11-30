@@ -35,7 +35,7 @@
             </div>
             <div class="row justify-content-center mt-3">
                 <div class="col-7 d-flex align-items-center">
-                    <input class="form-control" type="text" placeholder="Inserisci un nuovo todo" aria-label="Inserisci un nuovo todo" v-model="newTodo">
+                    <input class="form-control" type="text" placeholder="Inserisci un nuovo todo" aria-label="Inserisci un nuovo todo" v-model="newTodo" @keyup.enter="addTodo">
                     <button class="btn btn-primary mx-4" @click="addTodo">Salva</button>
                 </div>
             </div>
